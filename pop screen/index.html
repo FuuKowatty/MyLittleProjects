@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop screens</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="popScreen">
+            <button class="quitPopScreen">x</button>
+            <div class="question"><span class="mark">elo</span> Are you sure you wanna leave?</div>
+            <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur aperiam ad voluptas provident voluptatibus a maxime dignissimos similique?</div>
+            <div class="decision">
+                <button class="agree close">Accept</button>
+                <button class="cancel close" >cancel</button>
+            </div>
+        </div>
+    </div>
+    <button class="loadPopScreen" data-id="warning">show warning</button>
+    <button class="loadPopScreen" data-id="error">show show error</button>
+    <button class="loadPopScreen" data-id="def">show default</button>
+    <button class="loadPopScreen" data-id="tfujStary">EasterEgg</button>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
+
